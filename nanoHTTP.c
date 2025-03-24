@@ -9,6 +9,7 @@
 #include <time.h>
 #include <pthread.h>
 #include <dirent.h>
+#include <ctype.h>   
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 
