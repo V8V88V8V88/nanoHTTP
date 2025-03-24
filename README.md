@@ -5,7 +5,7 @@ A nano lightweight, educational HTTP server implementation in C. Ideal for learn
 
 1. Compile:
    ```
-   gcc nanohttp.c -o nanohttp
+   gcc nanoHTTP.c -o nanohttp.o -lssl -lcrypto -lpthread
    ```
 
 2. Execute:
